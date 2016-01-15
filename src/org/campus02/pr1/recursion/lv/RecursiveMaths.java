@@ -16,4 +16,11 @@ public class RecursiveMaths {
 		return fibonacci(n-1) + fibonacci(n-2);
 	}
 	
+	public static long factorial(int n) {
+		if(n <= 1) {
+			return 1;
+		}
+		return n * factorial(n-1);
+	}
+	
 }

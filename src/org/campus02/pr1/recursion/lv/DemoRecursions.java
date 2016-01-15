@@ -10,6 +10,9 @@ public class DemoRecursions {
 		result = RecursiveMaths.fibonacci(8);
 		System.out.println(result);
 		
+		long factN = RecursiveMaths.factorial(7);
+		System.out.println(factN);
+		
 	}
 
 }
