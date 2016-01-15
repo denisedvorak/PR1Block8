@@ -13,6 +13,9 @@ public class DemoRecursions {
 		long factN = RecursiveMaths.factorial(7);
 		System.out.println(factN);
 		
+		String test = "Go hang a salami, I’m a lasagna hog";
+		System.out.println(PalindromeChecker.isPalindrome(test));
+		
 	}
 
 }
